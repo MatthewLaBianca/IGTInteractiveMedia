@@ -50,20 +50,17 @@ public class ItemSpawn : MonoBehaviour {
 
     void FrostItem()
     {
-        Rigidbody2D frostClone = (Rigidbody2D)Instantiate(frostPrefab, new Vector3(highPsoition + 20, Random.Range(0, 5), 0),Quaternion.identity);
+        Rigidbody2D frostClone = (Rigidbody2D)Instantiate(frostPrefab, new Vector3(highPsoition + 10, Random.Range(0, 5), 0),Quaternion.identity);
     }
 
     void ShovelItem()
     {
-        Rigidbody2D shovelClone = (Rigidbody2D)Instantiate(shovelPrefab, new Vector3(highPsoition + 20, Random.Range(0, 5), 0), Quaternion.identity);
+        Rigidbody2D shovelClone = (Rigidbody2D)Instantiate(shovelPrefab, new Vector3(highPsoition + 10, Random.Range(0, 5), 0), Quaternion.identity);
     }
 
     void WebItem()
     {
-        Rigidbody2D webClone = (Rigidbody2D)Instantiate(webPrefab, new Vector3(highPsoition + 20, Random.Range(0, 5), 0), Quaternion.identity);
+        Rigidbody2D webClone = (Rigidbody2D)Instantiate(webPrefab, new Vector3(highPsoition + 10, Random.Range(0, 5), 0), Quaternion.identity);
+        Rigidbody2D webClone2 = (Rigidbody2D)Instantiate(webPrefab, new Vector3(highPsoition + 10, Random.Range(0, 5), 0), Quaternion.identity);
     }
-
-
-
-
 }

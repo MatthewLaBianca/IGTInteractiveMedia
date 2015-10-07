@@ -1,39 +1,39 @@
 fileFormatVersion: 2
-guid: 21e6f80ff6712904b987e10a2c1424d7
-timeCreated: 1443799237
+guid: 29e19e6968059474b990cb75a7794886
+timeCreated: 1444227952
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: redspritesheetsliced_0
-    21300002: redspritesheetsliced_1
-    21300004: redspritesheetsliced_2
-    21300006: redspritesheetsliced_3
-    21300008: redspritesheetsliced_4
-    21300010: redspritesheetsliced_5
-    21300012: redspritesheetsliced_6
-    21300014: redspritesheetsliced_7
-    21300016: redspritesheetsliced_8
-    21300018: redspritesheetsliced_9
-    21300020: redspritesheetsliced_10
-    21300022: redspritesheetsliced_11
-    21300024: redspritesheetsliced_12
-    21300026: redspritesheetsliced_13
-    21300028: redspritesheetsliced_14
-    21300030: redspritesheetsliced_15
-    21300032: redspritesheetsliced_16
-    21300034: redspritesheetsliced_17
-    21300036: redspritesheetsliced_18
-    21300038: redspritesheetsliced_19
-    21300040: redspritesheetsliced_20
-    21300042: redspritesheetsliced_21
-    21300044: redspritesheetsliced_22
-    21300046: redspritesheetsliced_23
-    21300048: redspritesheetsliced_24
-    21300050: redspritesheetsliced_25
-    21300052: redspritesheetsliced_26
-    21300054: redspritesheetsliced_27
-    21300056: redspritesheetsliced_28
-    21300058: redspritesheetsliced_29
+    21300000: redspritesheetsliced3_0
+    21300002: redspritesheetsliced3_1
+    21300004: redspritesheetsliced3_2
+    21300006: redspritesheetsliced3_3
+    21300008: redspritesheetsliced3_4
+    21300010: redspritesheetsliced3_5
+    21300012: redspritesheetsliced3_6
+    21300014: redspritesheetsliced3_7
+    21300016: redspritesheetsliced3_8
+    21300018: redspritesheetsliced3_9
+    21300020: redspritesheetsliced3_10
+    21300022: redspritesheetsliced3_11
+    21300024: redspritesheetsliced3_12
+    21300026: redspritesheetsliced3_13
+    21300028: redspritesheetsliced3_14
+    21300030: redspritesheetsliced3_15
+    21300032: redspritesheetsliced3_16
+    21300034: redspritesheetsliced3_17
+    21300036: redspritesheetsliced3_18
+    21300038: redspritesheetsliced3_19
+    21300040: redspritesheetsliced3_20
+    21300042: redspritesheetsliced3_21
+    21300044: redspritesheetsliced3_22
+    21300046: redspritesheetsliced3_23
+    21300048: redspritesheetsliced3_24
+    21300050: redspritesheetsliced3_25
+    21300052: redspritesheetsliced3_26
+    21300054: redspritesheetsliced3_27
+    21300056: redspritesheetsliced3_28
+    21300058: redspritesheetsliced3_29
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -80,7 +80,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: redspritesheetsliced_0
+    - name: redspritesheetsliced3_0
       rect:
         serializedVersion: 2
         x: 0
@@ -90,7 +90,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_1
+    - name: redspritesheetsliced3_1
       rect:
         serializedVersion: 2
         x: 384
@@ -100,7 +100,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_2
+    - name: redspritesheetsliced3_2
       rect:
         serializedVersion: 2
         x: 768
@@ -110,7 +110,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_3
+    - name: redspritesheetsliced3_3
       rect:
         serializedVersion: 2
         x: 1152
@@ -120,7 +120,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_4
+    - name: redspritesheetsliced3_4
       rect:
         serializedVersion: 2
         x: 0
@@ -130,7 +130,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_5
+    - name: redspritesheetsliced3_5
       rect:
         serializedVersion: 2
         x: 384
@@ -140,7 +140,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_6
+    - name: redspritesheetsliced3_6
       rect:
         serializedVersion: 2
         x: 768
@@ -150,7 +150,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_7
+    - name: redspritesheetsliced3_7
       rect:
         serializedVersion: 2
         x: 1152
@@ -160,7 +160,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_8
+    - name: redspritesheetsliced3_8
       rect:
         serializedVersion: 2
         x: 0
@@ -170,7 +170,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_9
+    - name: redspritesheetsliced3_9
       rect:
         serializedVersion: 2
         x: 384
@@ -180,7 +180,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_10
+    - name: redspritesheetsliced3_10
       rect:
         serializedVersion: 2
         x: 768
@@ -190,7 +190,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_11
+    - name: redspritesheetsliced3_11
       rect:
         serializedVersion: 2
         x: 1152
@@ -200,7 +200,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_12
+    - name: redspritesheetsliced3_12
       rect:
         serializedVersion: 2
         x: 0
@@ -210,7 +210,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_13
+    - name: redspritesheetsliced3_13
       rect:
         serializedVersion: 2
         x: 384
@@ -220,7 +220,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_14
+    - name: redspritesheetsliced3_14
       rect:
         serializedVersion: 2
         x: 768
@@ -230,7 +230,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_15
+    - name: redspritesheetsliced3_15
       rect:
         serializedVersion: 2
         x: 1152
@@ -240,7 +240,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_16
+    - name: redspritesheetsliced3_16
       rect:
         serializedVersion: 2
         x: 0
@@ -250,7 +250,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_17
+    - name: redspritesheetsliced3_17
       rect:
         serializedVersion: 2
         x: 384
@@ -260,7 +260,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_18
+    - name: redspritesheetsliced3_18
       rect:
         serializedVersion: 2
         x: 768
@@ -270,7 +270,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_19
+    - name: redspritesheetsliced3_19
       rect:
         serializedVersion: 2
         x: 1152
@@ -280,7 +280,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_20
+    - name: redspritesheetsliced3_20
       rect:
         serializedVersion: 2
         x: 0
@@ -290,7 +290,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_21
+    - name: redspritesheetsliced3_21
       rect:
         serializedVersion: 2
         x: 384
@@ -300,7 +300,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_22
+    - name: redspritesheetsliced3_22
       rect:
         serializedVersion: 2
         x: 768
@@ -310,7 +310,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_23
+    - name: redspritesheetsliced3_23
       rect:
         serializedVersion: 2
         x: 1152
@@ -320,7 +320,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_24
+    - name: redspritesheetsliced3_24
       rect:
         serializedVersion: 2
         x: 0
@@ -330,7 +330,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_25
+    - name: redspritesheetsliced3_25
       rect:
         serializedVersion: 2
         x: 384
@@ -340,7 +340,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_26
+    - name: redspritesheetsliced3_26
       rect:
         serializedVersion: 2
         x: 768
@@ -350,7 +350,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_27
+    - name: redspritesheetsliced3_27
       rect:
         serializedVersion: 2
         x: 1152
@@ -360,7 +360,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_28
+    - name: redspritesheetsliced3_28
       rect:
         serializedVersion: 2
         x: 0
@@ -370,7 +370,7 @@ TextureImporter:
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: redspritesheetsliced_29
+    - name: redspritesheetsliced3_29
       rect:
         serializedVersion: 2
         x: 384

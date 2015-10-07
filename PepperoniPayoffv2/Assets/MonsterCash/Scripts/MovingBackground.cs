@@ -18,7 +18,7 @@ public class MovingBackground : MonoBehaviour {
     void Update() {
         for (int i = 0; i < 5; i++)
         {
-            if (zombie[i].transform.position.x > 1 && this.transform.position.x < 87.0f && raceStart != false)
+            if (zombie[i].transform.position.x > 4 && this.transform.position.x < 87.0f && raceStart != false)
             {
                 Vector3 position = this.transform.position;
                 position.x = position.x + 0.01f;

@@ -54,22 +54,49 @@ public class RacerMovement : MonoBehaviour {
         {
             Debug.Log("Frost");
             Destroy(coll.gameObject);
-            Deccelerate();
+            StartCoroutine(FrostItem());
         }
 
         if (coll.gameObject.tag == "Shovel")
         {
             Debug.Log("Shovel");
             Destroy(coll.gameObject);
-            Deccelerate();
+            StartCoroutine(ShovelItem());
         }
 
         if (coll.gameObject.tag == "Web")
         {
             Debug.Log("Web");
             Destroy(coll.gameObject);
-            Deccelerate();
+            StartCoroutine(SwebItem());
         }
+    }
+
+    IEnumerator FrostItem()
+    {
+        float tempAcc = acceleration;
+        acceleration = tempAcc - 0.03f;
+        yield return new WaitForSeconds(4);
+        acceleration = Random.Range(0.00f, 0.03f);
+        yield return true;
+    }
+
+    IEnumerator ShovelItem()
+    {
+        float tempAcc = acceleration;
+        acceleration = tempAcc - 0.055f;
+        yield return new WaitForSeconds(4);
+        acceleration = Random.Range(0.00f, 0.03f);
+        yield return true;
+    }
+
+    IEnumerator SwebItem()
+    {
+        float tempAcc = acceleration;
+        acceleration = tempAcc - 0.055f;
+        yield return new WaitForSeconds(4);
+        acceleration = Random.Range(0.00f, 0.03f);
+        yield return true;
     }
 
     void Deccelerate()

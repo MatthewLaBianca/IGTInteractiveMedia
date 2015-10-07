@@ -1,39 +1,39 @@
 fileFormatVersion: 2
-guid: 9bf219c89116f2746ac6d9bc8e974865
-timeCreated: 1444228360
+guid: 21e6f80ff6712904b987e10a2c1424d7
+timeCreated: 1444228476
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: purpleRiderSpritesliced_0
-    21300002: purpleRiderSpritesliced_1
-    21300004: purpleRiderSpritesliced_2
-    21300006: purpleRiderSpritesliced_3
-    21300008: purpleRiderSpritesliced_4
-    21300010: purpleRiderSpritesliced_5
-    21300012: purpleRiderSpritesliced_6
-    21300014: purpleRiderSpritesliced_7
-    21300016: purpleRiderSpritesliced_8
-    21300018: purpleRiderSpritesliced_9
-    21300020: purpleRiderSpritesliced_10
-    21300022: purpleRiderSpritesliced_11
-    21300024: purpleRiderSpritesliced_12
-    21300026: purpleRiderSpritesliced_13
-    21300028: purpleRiderSpritesliced_14
-    21300030: purpleRiderSpritesliced_15
-    21300032: purpleRiderSpritesliced_16
-    21300034: purpleRiderSpritesliced_17
-    21300036: purpleRiderSpritesliced_18
-    21300038: purpleRiderSpritesliced_19
-    21300040: purpleRiderSpritesliced_20
-    21300042: purpleRiderSpritesliced_21
-    21300044: purpleRiderSpritesliced_22
-    21300046: purpleRiderSpritesliced_23
-    21300048: purpleRiderSpritesliced_24
-    21300050: purpleRiderSpritesliced_25
-    21300052: purpleRiderSpritesliced_26
-    21300054: purpleRiderSpritesliced_27
-    21300056: purpleRiderSpritesliced_28
-    21300058: purpleRiderSpritesliced_29
+    21300000: redspritesheetsliced_0
+    21300002: redspritesheetsliced_1
+    21300004: redspritesheetsliced_2
+    21300006: redspritesheetsliced_3
+    21300008: redspritesheetsliced_4
+    21300010: redspritesheetsliced_5
+    21300012: redspritesheetsliced_6
+    21300014: redspritesheetsliced_7
+    21300016: redspritesheetsliced_8
+    21300018: redspritesheetsliced_9
+    21300020: redspritesheetsliced_10
+    21300022: redspritesheetsliced_11
+    21300024: redspritesheetsliced_12
+    21300026: redspritesheetsliced_13
+    21300028: redspritesheetsliced_14
+    21300030: redspritesheetsliced_15
+    21300032: redspritesheetsliced_16
+    21300034: redspritesheetsliced_17
+    21300036: redspritesheetsliced_18
+    21300038: redspritesheetsliced_19
+    21300040: redspritesheetsliced_20
+    21300042: redspritesheetsliced_21
+    21300044: redspritesheetsliced_22
+    21300046: redspritesheetsliced_23
+    21300048: redspritesheetsliced_24
+    21300050: redspritesheetsliced_25
+    21300052: redspritesheetsliced_26
+    21300054: redspritesheetsliced_27
+    21300056: redspritesheetsliced_28
+    21300058: redspritesheetsliced_29
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -80,303 +80,303 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: purpleRiderSpritesliced_0
+    - name: redspritesheetsliced_0
       rect:
         serializedVersion: 2
-        x: 227
-        y: 1797
-        width: 153
-        height: 123
+        x: 0
+        y: 1792
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_1
+    - name: redspritesheetsliced_1
       rect:
         serializedVersion: 2
-        x: 612
-        y: 1797
-        width: 152
-        height: 122
+        x: 384
+        y: 1792
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_2
+    - name: redspritesheetsliced_2
       rect:
         serializedVersion: 2
-        x: 993
-        y: 1797
-        width: 155
-        height: 122
+        x: 768
+        y: 1792
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_3
+    - name: redspritesheetsliced_3
       rect:
         serializedVersion: 2
-        x: 1379
-        y: 1796
-        width: 153
-        height: 123
+        x: 1152
+        y: 1792
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_4
+    - name: redspritesheetsliced_4
       rect:
         serializedVersion: 2
-        x: 228
-        y: 1540
-        width: 153
-        height: 123
+        x: 0
+        y: 1536
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_5
+    - name: redspritesheetsliced_5
       rect:
         serializedVersion: 2
-        x: 612
-        y: 1541
-        width: 153
-        height: 122
+        x: 384
+        y: 1536
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_6
+    - name: redspritesheetsliced_6
       rect:
         serializedVersion: 2
-        x: 996
-        y: 1541
-        width: 153
-        height: 122
+        x: 768
+        y: 1536
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_7
+    - name: redspritesheetsliced_7
       rect:
         serializedVersion: 2
-        x: 1379
-        y: 1540
-        width: 153
-        height: 123
+        x: 1152
+        y: 1536
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_8
+    - name: redspritesheetsliced_8
       rect:
         serializedVersion: 2
-        x: 226
-        y: 1284
-        width: 153
-        height: 123
+        x: 0
+        y: 1280
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_9
+    - name: redspritesheetsliced_9
       rect:
         serializedVersion: 2
-        x: 611
-        y: 1286
-        width: 153
-        height: 122
+        x: 384
+        y: 1280
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_10
+    - name: redspritesheetsliced_10
       rect:
         serializedVersion: 2
-        x: 995
-        y: 1284
-        width: 153
-        height: 123
+        x: 768
+        y: 1280
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_11
+    - name: redspritesheetsliced_11
       rect:
         serializedVersion: 2
-        x: 1379
-        y: 1284
-        width: 153
-        height: 124
+        x: 1152
+        y: 1280
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_12
+    - name: redspritesheetsliced_12
       rect:
         serializedVersion: 2
-        x: 227
-        y: 1028
-        width: 153
-        height: 123
-      alignment: 7
-      pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_13
-      rect:
-        serializedVersion: 2
-        x: 611
-        y: 1029
-        width: 153
-        height: 130
-      alignment: 7
-      pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_14
-      rect:
-        serializedVersion: 2
-        x: 992
-        y: 1029
-        width: 155
-        height: 123
-      alignment: 7
-      pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_15
-      rect:
-        serializedVersion: 2
-        x: 1379
+        x: 0
         y: 1024
-        width: 152
-        height: 128
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_16
+    - name: redspritesheetsliced_13
       rect:
         serializedVersion: 2
-        x: 228
-        y: 772
-        width: 152
-        height: 124
+        x: 384
+        y: 1024
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_17
+    - name: redspritesheetsliced_14
       rect:
         serializedVersion: 2
-        x: 611
-        y: 772
-        width: 153
-        height: 124
+        x: 768
+        y: 1024
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_18
+    - name: redspritesheetsliced_15
       rect:
         serializedVersion: 2
-        x: 995
-        y: 773
-        width: 153
-        height: 123
+        x: 1152
+        y: 1024
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_19
+    - name: redspritesheetsliced_16
       rect:
         serializedVersion: 2
-        x: 1380
-        y: 773
-        width: 152
-        height: 124
+        x: 0
+        y: 768
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_20
+    - name: redspritesheetsliced_17
       rect:
         serializedVersion: 2
-        x: 227
-        y: 516
-        width: 152
-        height: 128
+        x: 384
+        y: 768
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_21
+    - name: redspritesheetsliced_18
       rect:
         serializedVersion: 2
-        x: 611
-        y: 516
-        width: 153
-        height: 129
+        x: 768
+        y: 768
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_22
+    - name: redspritesheetsliced_19
       rect:
         serializedVersion: 2
-        x: 995
-        y: 518
-        width: 152
-        height: 122
+        x: 1152
+        y: 768
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_23
+    - name: redspritesheetsliced_20
       rect:
         serializedVersion: 2
-        x: 1380
-        y: 517
-        width: 152
-        height: 129
+        x: 0
+        y: 512
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_24
+    - name: redspritesheetsliced_21
       rect:
         serializedVersion: 2
-        x: 227
-        y: 260
-        width: 153
-        height: 123
+        x: 384
+        y: 512
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_25
+    - name: redspritesheetsliced_22
       rect:
         serializedVersion: 2
-        x: 612
-        y: 261
-        width: 152
-        height: 122
+        x: 768
+        y: 512
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_26
+    - name: redspritesheetsliced_23
       rect:
         serializedVersion: 2
-        x: 996
-        y: 260
-        width: 152
-        height: 123
+        x: 1152
+        y: 512
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_27
+    - name: redspritesheetsliced_24
       rect:
         serializedVersion: 2
-        x: 1379
-        y: 261
-        width: 155
-        height: 123
+        x: 0
+        y: 256
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_28
+    - name: redspritesheetsliced_25
       rect:
         serializedVersion: 2
-        x: 227
-        y: 5
-        width: 153
-        height: 123
+        x: 384
+        y: 256
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: purpleRiderSpritesliced_29
+    - name: redspritesheetsliced_26
       rect:
         serializedVersion: 2
-        x: 608
-        y: 5
-        width: 155
-        height: 123
+        x: 768
+        y: 256
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redspritesheetsliced_27
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redspritesheetsliced_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 256
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: redspritesheetsliced_29
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 256
       alignment: 7
       pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
