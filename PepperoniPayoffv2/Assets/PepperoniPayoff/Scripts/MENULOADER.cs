@@ -25,6 +25,6 @@ public class MENULOADER : MonoBehaviour {
 
     public void MC()
     {
-        Application.LoadLevel(5);
+        Application.LoadLevel(7);
     }
 }
