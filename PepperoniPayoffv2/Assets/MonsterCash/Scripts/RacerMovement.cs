@@ -3,12 +3,17 @@ using System.Collections;
 
 public class RacerMovement : MonoBehaviour {
 
+    private Animator racerAnimator;
+    private MCHashIDs hash;
+
     public GameObject finishLine;
     public GameObject startLine;
     float acceleration;
     bool raceStart;
 
     public AudioClip revSound;
+
+    public AudioClip movingSound;
 
     private AudioSource source;
 
@@ -18,6 +23,9 @@ public class RacerMovement : MonoBehaviour {
     // Use this for initialization
     void Awake () {
         source = GetComponent<AudioSource>();
+        racerAnimator = GetComponent<Animator>();
+        hash = GameObject.FindGameObjectWithTag("GameController").GetComponent<MCHashIDs>();
+
         raceStart = false;
         acceleration = Random.Range(0.01f, 0.03f);
         Debug.Log(acceleration);
@@ -61,6 +69,7 @@ public class RacerMovement : MonoBehaviour {
         {
             Debug.Log("Shovel");
             Destroy(coll.gameObject);
+            
             StartCoroutine(ShovelItem());
         }
 
@@ -74,28 +83,34 @@ public class RacerMovement : MonoBehaviour {
 
     IEnumerator FrostItem()
     {
+        racerAnimator.SetBool(hash.frostBool, true);
         float tempAcc = acceleration;
-        acceleration = tempAcc - 0.03f;
-        yield return new WaitForSeconds(4);
-        acceleration = Random.Range(0.00f, 0.03f);
+        acceleration = tempAcc - 0.05f;
+        yield return new WaitForSeconds(3);
+        racerAnimator.SetBool(hash.frostBool, false);
+        acceleration = Random.Range(0.00f, 0.02f);
         yield return true;
     }
 
     IEnumerator ShovelItem()
     {
+        racerAnimator.SetBool(hash.shovelBool, true);
         float tempAcc = acceleration;
-        acceleration = tempAcc - 0.055f;
-        yield return new WaitForSeconds(4);
-        acceleration = Random.Range(0.00f, 0.03f);
+        acceleration = tempAcc - 0.07f;
+        yield return new WaitForSeconds(3);
+        racerAnimator.SetBool(hash.shovelBool, false);
+        acceleration = Random.Range(0.00f, 0.02f);
         yield return true;
     }
 
     IEnumerator SwebItem()
     {
+        racerAnimator.SetBool(hash.webBool, true);
         float tempAcc = acceleration;
-        acceleration = tempAcc - 0.055f;
-        yield return new WaitForSeconds(4);
-        acceleration = Random.Range(0.00f, 0.03f);
+        acceleration = tempAcc - 0.06f;
+        yield return new WaitForSeconds(3);
+        racerAnimator.SetBool(hash.webBool, false);
+        acceleration = Random.Range(0.00f, 0.02f);
         yield return true;
     }
 
@@ -113,6 +128,7 @@ public class RacerMovement : MonoBehaviour {
     {
         float vol = Random.Range(volLowRange, volHighRange);
         yield return new WaitForSeconds(3);
+        racerAnimator.SetBool(hash.startraceBool, true);
         source.PlayOneShot(revSound, vol);
         raceStart = true;
     }

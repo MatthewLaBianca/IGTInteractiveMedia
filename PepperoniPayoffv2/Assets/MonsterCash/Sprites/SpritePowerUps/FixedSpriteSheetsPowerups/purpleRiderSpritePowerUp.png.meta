@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: 4938444d1a412d24b86dbf1fb08c5845
+timeCreated: 1444335903
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: purpleRiderSpritePowerUp_0
+    21300002: purpleRiderSpritePowerUp_1
+    21300004: purpleRiderSpritePowerUp_2
+    21300006: purpleRiderSpritePowerUp_3
+    21300008: purpleRiderSpritePowerUp_4
+    21300010: purpleRiderSpritePowerUp_5
+    21300012: purpleRiderSpritePowerUp_6
+    21300014: purpleRiderSpritePowerUp_7
+    21300016: purpleRiderSpritePowerUp_8
+    21300018: purpleRiderSpritePowerUp_9
+    21300020: purpleRiderSpritePowerUp_10
+    21300022: purpleRiderSpritePowerUp_11
+    21300024: purpleRiderSpritePowerUp_12
+    21300026: purpleRiderSpritePowerUp_13
+    21300028: purpleRiderSpritePowerUp_14
+    21300030: purpleRiderSpritePowerUp_15
+    21300032: purpleRiderSpritePowerUp_16
+    21300034: purpleRiderSpritePowerUp_17
+    21300036: purpleRiderSpritePowerUp_18
+    21300038: purpleRiderSpritePowerUp_19
+    21300040: purpleRiderSpritePowerUp_20
+    21300042: purpleRiderSpritePowerUp_21
+    21300044: purpleRiderSpritePowerUp_22
+    21300046: purpleRiderSpritePowerUp_23
+    21300048: purpleRiderSpritePowerUp_24
+    21300050: purpleRiderSpritePowerUp_25
+    21300052: purpleRiderSpritePowerUp_26
+    21300054: purpleRiderSpritePowerUp_27
+    21300056: purpleRiderSpritePowerUp_28
+    21300058: purpleRiderSpritePowerUp_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: purpleRiderSpritePowerUp_0
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1812
+        width: 178
+        height: 128
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_1
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 1812
+        width: 202
+        height: 127
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_2
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1810
+        width: 239
+        height: 156
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_3
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1817
+        width: 153
+        height: 122
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1561
+        width: 155
+        height: 122
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_5
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 1561
+        width: 153
+        height: 122
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_6
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1560
+        width: 153
+        height: 123
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_7
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1560
+        width: 153
+        height: 123
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_8
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1290
+        width: 223
+        height: 219
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_9
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 1290
+        width: 223
+        height: 219
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_10
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 1290
+        width: 223
+        height: 219
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_11
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1304
+        width: 153
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_12
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1042
+        width: 184
+        height: 129
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_13
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1042
+        width: 174
+        height: 142
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_14
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1042
+        width: 196
+        height: 132
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_15
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1044
+        width: 152
+        height: 128
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_16
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 792
+        width: 152
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_17
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 792
+        width: 153
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_18
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 792
+        width: 153
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_19
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 792
+        width: 152
+        height: 125
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_20
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 536
+        width: 152
+        height: 128
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_21
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 537
+        width: 153
+        height: 128
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_22
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 538
+        width: 152
+        height: 122
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_23
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 537
+        width: 152
+        height: 129
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_24
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 280
+        width: 153
+        height: 123
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_25
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 281
+        width: 152
+        height: 122
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_26
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 280
+        width: 152
+        height: 123
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_27
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 280
+        width: 155
+        height: 124
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_28
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 25
+        width: 153
+        height: 123
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleRiderSpritePowerUp_29
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 25
+        width: 153
+        height: 123
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

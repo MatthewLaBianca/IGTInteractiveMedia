@@ -50,7 +50,7 @@ public class ItemSpawn : MonoBehaviour {
 
     void FrostItem()
     {
-        Rigidbody2D frostClone = (Rigidbody2D)Instantiate(frostPrefab, new Vector3(highPsoition + 10, Random.Range(0, 5), 0),Quaternion.identity);
+        Rigidbody2D frostClone = (Rigidbody2D)Instantiate(frostPrefab, new Vector3(highPsoition + 10, Random.Range(0,5), 0),Quaternion.identity);
     }
 
     void ShovelItem()

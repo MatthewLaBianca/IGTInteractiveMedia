@@ -140,10 +140,10 @@ public class FinishLine : MonoBehaviour {
 
         if(exactPayout == 3 &&  amount == 0.5f)
         {
-            prize = 250;
+            prize = 125;
         }else if(exactPayout == 3 &&  amount == 1f)
         {
-            prize = 125;
+            prize = 250;
         }
 
         amountTxt.text = "$ " + prize.ToString() + " !";
@@ -173,11 +173,11 @@ public class FinishLine : MonoBehaviour {
         }
         else if (anyPayout == 3 && amount == 0.5f)
         {
-            prize = 80;
+            prize = 40;
         }
         else if (anyPayout == 3 && amount == 1f)
         {
-            prize = 160;
+            prize = 80;
         }
 
         amountTxt.text = "$ " + prize.ToString() + " !";
