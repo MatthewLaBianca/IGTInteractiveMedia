@@ -23,6 +23,13 @@ public class FinishLine : MonoBehaviour {
     public Text amountTxt;
     public Text winningTxt;
 
+    public Image yellowGlow;
+    public Image greenGlow;
+    public Image whiteGlow;
+
+    public Image throphie;
+    public Image plaque;
+
     public GameObject replayBttn;
     public GameObject exitBttn;
 
@@ -59,9 +66,14 @@ public class FinishLine : MonoBehaviour {
         yield return new WaitForSeconds(1.3f);
         while (progress < 1)
         {
-            winImage.color = Color.Lerp(Color.clear, Color.black, progress);
+            winImage.color = Color.Lerp(Color.clear, Color.white, progress);
             amountTxt.color = Color.Lerp(Color.clear, Color.white, progress);
-            winningTxt.color = Color.Lerp(Color.clear, Color.white, progress);
+            winningTxt.color = Color.Lerp(Color.clear, Color.green, progress);
+            yellowGlow.color = Color.Lerp(Color.clear, Color.white, progress);
+            greenGlow.color = Color.Lerp(Color.clear, Color.white, progress);
+            whiteGlow.color = Color.Lerp(Color.clear, Color.white, progress);
+            throphie.color = Color.Lerp(Color.clear, Color.white, progress);
+            plaque.color = Color.Lerp(Color.clear, Color.white, progress);
             progress += increment;
 
             yield return new WaitForSeconds(smoothness);
@@ -146,7 +158,7 @@ public class FinishLine : MonoBehaviour {
             prize = 250;
         }
 
-        amountTxt.text = "$ " + prize.ToString() + " !";
+        FinalScreen();
     }
 
 
@@ -180,7 +192,33 @@ public class FinishLine : MonoBehaviour {
             prize = 80;
         }
 
-        amountTxt.text = "$ " + prize.ToString() + " !";
+        FinalScreen();
+    }
+
+    void FinalScreen()
+    {
+        if(prize > 0)
+        {
+            winningTxt.text = "You're a             WINNER!!";
+        }
+        else
+        {
+            winningTxt.text = "Better Luck             next time!";
+        }
+        amountTxt.text = "$" + prize.ToString() + "!";
+        StartCoroutine(RotateGlow());
     }
     
+    IEnumerator RotateGlow()
+    {
+        while (true)
+        {
+            yellowGlow.transform.Rotate(Vector3.forward, 1);
+            greenGlow.transform.Rotate(Vector3.forward, -1);
+            whiteGlow.transform.Rotate(Vector3.forward, 2);
+            yield return new WaitForSeconds(0.01f);
+        }
+
+        yield return true;
+    }
 }
