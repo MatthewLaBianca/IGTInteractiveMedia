@@ -87,6 +87,8 @@ public class ChooseGameScript : MonoBehaviour {
 	public Count tickets = new Count(1,5);
     public Money money = new Money(1,3);
 
+    public GameObject gameManager;
+
     //private int amountDue;
     public Text moneyText;
 
@@ -96,7 +98,6 @@ public class ChooseGameScript : MonoBehaviour {
 	void Start () {
 		amntOfDarts = darts.GetMin();
 		amntOfTix = 1;
-
 	}
 	
 	// Update is called once per frame
@@ -118,6 +119,10 @@ public class ChooseGameScript : MonoBehaviour {
     private void MoneyStuff()
     {
         moneyText.text = money.GetTotalInStringForm(amntOfTix);
+    }
+    public void SubtractTotal()
+    {
+        gameManager.GetComponent<Manager>().SubtractBalanceBy(money.GetTotal(amntOfTix));
     }
 	//Dart Stuff
 	private void DartStuff()

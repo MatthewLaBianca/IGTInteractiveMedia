@@ -20,6 +20,11 @@ public class PrefabManager : MonoBehaviour {
 	public GameObject[] sausague;
     public AudioSource sliceSource;
 
+    public GameObject gameManager;
+    private Manager manager;
+
+    private float amountToPay;
+
 	public int startTopping;
 	public int currentTopping;
 
@@ -44,6 +49,7 @@ public class PrefabManager : MonoBehaviour {
 	{
 		startTopping = 0;
 		setTopping (startTopping);
+        manager = gameManager.GetComponent<Manager>();
 	}
 
 
@@ -65,9 +71,15 @@ public class PrefabManager : MonoBehaviour {
     {
         StartCoroutine(WaitTime(index));
     }
+    public void SubtractBalance()
+    {
+        manager.SubtractBalanceBy(amountToPay);
+    }
 
-
-
+    private void AmountToPay(float amount)
+    {
+        amountToPay = amount;
+    }
 	//call this method with any prefab index and any material index
 	public void setTopping(int index)
 	{
@@ -76,6 +88,7 @@ public class PrefabManager : MonoBehaviour {
 			switch (index) {
 
 			case 3:
+                AmountToPay(5f);
 				if(!activeTopping[index]){
 					for (i = 0; i < 9; i++) {
 						pepperoni[i].SetActive (true);
@@ -96,7 +109,9 @@ public class PrefabManager : MonoBehaviour {
 			break;
 
 			case 2:
-				if(!activeTopping[index]){
+                AmountToPay(3f);
+
+                if (!activeTopping[index]){
                     for (i = 0; i < 9; i++) {
 						pepperoni[i].SetActive (false);
 						mushroom[i].SetActive (true);
@@ -117,7 +132,9 @@ public class PrefabManager : MonoBehaviour {
 			break;
 			
 			case 1:
-				if(!activeTopping[index]){
+                AmountToPay(2f);
+
+                if (!activeTopping[index]){
 
                     for (i = 0; i < 9; i++) {
 						pepperoni[i].SetActive (false);
@@ -139,7 +156,9 @@ public class PrefabManager : MonoBehaviour {
 			break;
 
 			case 0:
-				if(!activeTopping[index]){
+                AmountToPay(1f);
+
+                if (!activeTopping[index]){
 
                     for (i = 0; i < 9; i++) {
 						pepperoni[i].SetActive (false);

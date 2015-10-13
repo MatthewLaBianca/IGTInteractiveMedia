@@ -34,6 +34,10 @@ public class FinishLine : MonoBehaviour {
     public GameObject exitBttn;
 
 
+    public GameObject gameManager;
+
+    private float amountToPay;
+
     float duration = 1.0f; // This will be your time in seconds.
     float smoothness = 0.02f;
 
@@ -48,6 +52,7 @@ public class FinishLine : MonoBehaviour {
         first = false;
         second = false;
         third = false;
+        AmountToPay(.5f);
     }
 
 	// Update is called once per frame
@@ -126,18 +131,31 @@ public class FinishLine : MonoBehaviour {
         {
             case 4:
                 PayoutAny(1f);
+                AmountToPay(1f);
                 break;
             case 3:
                 PayoutAny(.5f);
+                AmountToPay(.5f);
                 break;
             case 2:
                 PayoutExact(1f);
+                AmountToPay(1f);
                 break;
             case 1:
                 PayoutExact(.5f);
+                AmountToPay(.5f);
                 break;
         }
             
+    }
+
+    public void AmountToPay(float amount)
+    {
+        amountToPay = amount;
+    }
+    public void SubtractBalance()
+    {
+        gameManager.GetComponent<Manager>().SubtractBalanceBy(amountToPay);
     }
 
     void PayoutExact(float amount)
@@ -205,6 +223,7 @@ public class FinishLine : MonoBehaviour {
         {
             winningTxt.text = "Better Luck             next time!";
         }
+        gameManager.GetComponent<Manager>().ChangeBalanceBy(prize);
         amountTxt.text = "$" + prize.ToString() + "!";
         StartCoroutine(RotateGlow());
     }

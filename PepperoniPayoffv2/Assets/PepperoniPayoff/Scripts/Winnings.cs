@@ -22,6 +22,7 @@ public class Winnings : MonoBehaviour {
     public GameObject LosereplayBttn;
     public GameObject LoseexitBttn;
 
+    public GameObject manager;
 
 
     public GameObject WinScreenGO;
@@ -102,6 +103,12 @@ public class Winnings : MonoBehaviour {
 		
 		yield return 0;
 	}
+
+
+    private float CastWinnings(int amount)
+    {
+        return (float)(amount);
+    }
 
     IEnumerator LerpColorLose()
     {
@@ -228,6 +235,7 @@ public class Winnings : MonoBehaviour {
 			Counters.counter800 = 0;
 			
 		}
+        manager.GetComponent<Manager>().ChangeBalanceBy(CastWinnings(winnings));
 		if(winnings > 0)
 		{
 			//ifLose.text = "You Could Have Won:";

@@ -12,9 +12,13 @@ public class ItemSpawn : MonoBehaviour {
     public float temPosition;
     public float highPsoition;
 
+    public GameObject gameManager;
+    private Manager manager;
+
     // Use this for initialization
     void Start () {
         highPsoition = racers[1].transform.position.x;
+        manager = gameManager.GetComponent<Manager>();
     }
 	
 	// Update is called once per frame
@@ -51,15 +55,18 @@ public class ItemSpawn : MonoBehaviour {
     void FrostItem()
     {
         Rigidbody2D frostClone = (Rigidbody2D)Instantiate(frostPrefab, new Vector3(highPsoition + 10, Random.Range(0,5), 0),Quaternion.identity);
+        manager.SubtractBalanceBy(1f);
     }
 
     void ShovelItem()
     {
+        manager.SubtractBalanceBy(2f);
         Rigidbody2D shovelClone = (Rigidbody2D)Instantiate(shovelPrefab, new Vector3(highPsoition + 10, Random.Range(0, 5), 0), Quaternion.identity);
     }
 
     void WebItem()
     {
+        manager.SubtractBalanceBy(3f);
         Rigidbody2D webClone = (Rigidbody2D)Instantiate(webPrefab, new Vector3(highPsoition + 10, Random.Range(0, 5), 0), Quaternion.identity);
         Rigidbody2D webClone2 = (Rigidbody2D)Instantiate(webPrefab, new Vector3(highPsoition + 10, Random.Range(0, 5), 0), Quaternion.identity);
     }

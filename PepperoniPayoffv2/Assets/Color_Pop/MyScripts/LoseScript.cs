@@ -21,7 +21,7 @@ public class LoseScript : MonoBehaviour {
     public Text tic5;
 
     public ThrowRandomDart checkMultiplier;
-
+    public GameObject gameManager;
     public List<GameObject> stuffToToggle = new List<GameObject>();
 
 
@@ -183,22 +183,22 @@ public class LoseScript : MonoBehaviour {
     }
 
     WinningStuff winningstuff = new WinningStuff();
-
+    int matchesInt;
     // Use this for initialization
     void Start () {
-        dartMan = GameObject.Find("ScriptHolder").GetComponent<DartManager>();  
+        dartMan = GameObject.Find("ScriptHolder").GetComponent<DartManager>();
+        AddWinnings();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        
+        matchesInt = numMan.GetNumbersMatched();
         winningstuff.SetDarts(dartMan.GetInitDarts());          //this tells the Winnings class how many darts there were at the beginning
         matches.text = numMan.GetNumbersMatched().ToString();   //how many matches were there?
-
         winnings.text = "$" + (winningstuff.GetWinnings(numMan.GetNumbersMatched())*checkMultiplier.multiplier).ToString();  //Output the winnings
-
         winOrLose.color = winningstuff.GetColor();              //win or lose color for the winner/loser text
         winOrLose.text = winningstuff.GetWinLoseString();       //display the text for winner/Loser on screen
+
 
         if(!winningstuff.GetWin())
         {
@@ -208,6 +208,7 @@ public class LoseScript : MonoBehaviour {
             }
         }else
         {
+
             foreach(GameObject obj in stuffToToggle)
             {
                 obj.SetActive(true);
@@ -215,7 +216,12 @@ public class LoseScript : MonoBehaviour {
         }
 	}
 
-	public void MainMenu(){
+    public void AddWinnings()
+    {
+        gameManager.GetComponent<Manager>().ChangeBalanceBy(winningstuff.GetWinnings(matchesInt) * checkMultiplier.multiplier);
+    }
+
+    public void MainMenu(){
 		Application.LoadLevel(0);
 	}
 
