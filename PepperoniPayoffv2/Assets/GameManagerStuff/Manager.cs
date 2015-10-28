@@ -4,12 +4,11 @@ using System.Collections;
 public class Manager : MonoBehaviour {
     public static Manager instance = null;
     private float balance = 130;
-    // Use this for initialization
-    void Awake()
-    {
-        
-    }
+
     void Start () {
+		//this is just to enforce our singleton..
+		//if there is no instance of the GameManager, than set it to this instance
+		//if there is an instance of the GameManager already, then destroy this one.
         if (instance == null)
         {
             instance = this;
@@ -21,13 +20,9 @@ public class Manager : MonoBehaviour {
             Debug.Log("NOT NULL");
 
         }
-        DontDestroyOnLoad(gameObject);
+        DontDestroyOnLoad(gameObject); //this allows this script to carry throughout every "scene"
     }
 	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
     public float GetBalance()
     {
